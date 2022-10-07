@@ -15,10 +15,7 @@ Package of template files, examples, and illustrations to deploy Redis on Linode
 
 ### Overview
 
-![image](https://user-images.githubusercontent.com/7717493/194063848-45d8649a-8f31-41c0-b391-d585a13bd626.png)
-The scenario is written to demonstrate the deployment of Redis on an LKE Cluster
-
-The workshop scenario builds the following components and steps-
+The scenario is written to demonstrate the deployment of Redis on an LKE Cluster and deploys with the following components and steps-
 
 1. A Secure Shell Linode (provisioned via the Linode Cloud Manager GUI) to serve as the command console for the environment setup.
 
