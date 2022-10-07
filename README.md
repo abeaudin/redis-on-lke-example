@@ -64,7 +64,7 @@ Next step is to install Terraform. Run the below commands from the Linode shell-
   ```
 
 ### Provision LKE Cluster using Terraform
-![image](https://user-images.githubusercontent.com/7717493/194061886-5dc2dee1-8611-4ab3-9200-b5cde6aea221.png)
+![image](https://user-images.githubusercontent.com/7717493/194581362-e162043a-4764-4218-9822-ac9649424ad4.png)
 
 Next, we build the LKE cluster, with the terraform files that are included in this repository, and pulled into the Linode Shell from the prior git command.
 
@@ -91,9 +91,8 @@ terraform plan \
 Once deployment is complete, you should see an LKE cluster within the "Kubernetes" section of your Linode Cloud Manager account.
 
 ### Deploy Containers to LKE 
-![image](https://user-images.githubusercontent.com/7717493/194061837-e8846d2c-6669-49cd-9d45-395126442fe4.png)
-
-Next step is to use kubectl to deploy the elastic stack to the LKE cluster. 
+![image](https://user-images.githubusercontent.com/7717493/194581398-b50f30e2-aa2f-451a-a5ca-dcb7492c0fed.png)
+Next step is to use kubectl to deploy the redis stack to the LKE cluster. 
 
 1. Install kubectl via the below commands from the Linode shell-
 ```
